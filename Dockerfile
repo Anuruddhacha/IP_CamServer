@@ -7,7 +7,7 @@ RUN npm install --omit=dev
 
 COPY . .
 
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=8000
+EXPOSE 8000
 
 CMD ["node", "server.js"]
